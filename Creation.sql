@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `ClinicaAltaPerformance`.`Prova` (
   `idProva` INT NOT NULL AUTO_INCREMENT,
   `designacao` VARCHAR(100) NOT NULL,
   `modalidade` VARCHAR(100) NOT NULL,
-  `categoria` INT NOT NULL,
+  `categoria` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`idProva`))
 ENGINE = InnoDB;
 
@@ -154,6 +154,7 @@ CREATE TABLE IF NOT EXISTS `ClinicaAltaPerformance`.`TesteClinico` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
+
 
 
 
