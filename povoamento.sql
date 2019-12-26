@@ -408,45 +408,45 @@ INSERT INTO ClinicaAltaPerformance.TesteClinico (idTesteClinico,designacao,dataH
 
 
 -- POVOAR PROVAS
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(1,'Velocidade', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(2,'Bareiras', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(3,'Lancamento Disco', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(4,'Salto em Comprimento', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(5,'Estafetas', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(6,'Triatlo', 'Atletismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(7,'Velocidade', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(8,'Bareiras', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(9,'Lancamento Disco', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(10,'Salto em Comprimento', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(11,'Estafetas', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(12,'Triatlo', 'Atletismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(13,'Velocidade', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(14,'Bareiras', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(15,'Lancamento Disco', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(16,'Salto em Comprimento', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(17,'Triatlo', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(18,'Estafetas', 'Atletismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(19,'Ciclismo', 'Ciclismo','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(21,'Ciclismo', 'Ciclismo','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(22,'Ciclismo', 'Ciclismo','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(23,'Polo Aquatico', 'Natacao','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(24,'Sincronizada', 'Natacao','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(25,'Mergulho', 'Natacao','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(26,'Polo Aquatico', 'Natacao','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(27,'Sincronizada', 'Natacao','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(28,'Mergulho', 'Natacao','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(29,'Polo Aquatico', 'Natacao','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(30,'Sincronizada', 'Natacao','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(31,'Mergulho', 'Natacao','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(32,'Artistica', 'Ginastica','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(33,'Ritmica', 'Ginastica','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(34,'Trampolim Acrobatico', 'Ginastica','Menores_18');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(35,'Artistica', 'Ginastica','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(36,'Ritmica', 'Ginastica','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(37,'Trampolim Acrobatico', 'Ginastica','Entre_18_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(38,'Artistica', 'Ginastica','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(39,'Ritmica', 'Ginastica','Maiores_24');
-INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(40,'Trampolim Acrobatico', 'Ginastica','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(1,'60 metros', 'Velocidade','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(2,'100 metros', 'Velocidade','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(3,'200 metros', 'Velocidade','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(4,'400 metros', 'Velocidade','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(5,'100 metros', 'Barreiras','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(6,'400 metros', 'Barreiras','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(7,'60 metros', 'Velocidade','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(8,'100 metros', 'Velocidade','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(9,'200 metros', 'Velocidade','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(10,'400 metros', 'Velocidade','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(11,'100 metros', 'Barreiras','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(12,'400 metros', 'Barreiras','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(13,'60 metros', 'Velocidade','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(14,'100 metros', 'Velocidade','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(15,'200 metros', 'Velocidade','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(16,'400 metros', 'Velocidade','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(17,'100 metros', 'Barreiras','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(18,'400 metros', 'Barreiras','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(19,'100 metros', 'Estafetas','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(21,'100 metros', 'Estafetas','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(22,'100 metros', 'Estafetas','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(23,'Martelo', 'Lancamento','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(24,'Disco', 'Lancamento','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(25,'Peso', 'Lancamento','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(26,'Martelo', 'Lancamento','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(27,'Disco', 'Lancamento','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(28,'Peso', 'Lancamento','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(29,'Martelo', 'Lancamento','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(30,'Disco', 'Lancamento','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(31,'Peso', 'Lancamento','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(32,'Altura', 'Salto','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(33,'Comprimento', 'Salto','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(34,'Vara', 'Salto','Menores_18');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(35,'Altura', 'Salto','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(36,'Comprimento', 'Salto','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(37,'Vara', 'Salto','Entre_18_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(38,'Altura', 'Salto','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(39,'Comprimento', 'Salto','Maiores_24');
+INSERT INTO ClinicaAltaPerformance.Prova(idProva,designacao,modalidade,categoria) VALUES(40,'Vara', 'Salto','Maiores_24');
 
 -- POVOAR ATLETA_PROVA COM AS DATAS DAS PROVAS REALIZADAS
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (1,38,'2019-09-15');
@@ -472,7 +472,7 @@ INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (17,29,'2019-12-31');
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (17,30,'2019-12-31');
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (17,31,'2019-12-31');
-INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (18,17,'2019-12-31');
+INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (18,22,'2019-12-31');
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (19,38,'2019-12-31');
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (19,39,'2019-12-31');
 INSERT INTO ClinicaAltaPerformance.Atleta_Prova (id_Atleta,id_Prova,data) VALUES (19,40,'2019-12-31');
@@ -510,7 +510,7 @@ INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES 
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (39,'Dopping');
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (40,'Dopping');
 
--- TODAS AS PROVAS DE ATLETISMO REQUEREM TESTE DE ESFORCO E ANALISE SANGUINEAS
+-- TODAS AS PROVAS DE VELOCIDADE E DE BARREIRAS REQUEREM TESTE DE ESFORCO E ANALISE SANGUINEAS
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (1,'Prova_Esforco');
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (1,'Analise_sanguinea');
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (2,'Prova_Esforco');
@@ -543,6 +543,10 @@ INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES 
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (15,'Analise_sanguinea');
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (16,'Prova_Esforco');
 INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (16,'Analise_sanguinea');
+INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (17,'Prova_Esforco');
+INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (17,'Analise_sanguinea');
+INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (18,'Prova_Esforco');
+INSERT INTO ClinicaAltaPerformance.Prova_TipoTeste (idProva, designacao) VALUES (18,'Analise_sanguinea');
 
 
 
