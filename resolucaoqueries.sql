@@ -17,7 +17,7 @@ DROP PROCEDURE IF EXISTS dopping_positivo
 DELIMITER $$
 CREATE PROCEDURE dopping_positivo (IN nome_atleta VARCHAR(100))
 BEGIN
-SELECT a.nome
+SELECT DISTINCT a.nome
 FROM(SELECT ap.id_Atleta 
 	 FROM Atleta_Prova ap
      INNER JOIN Prova p ON p.idProva = ap.id_Prova WHERE p.modalidade = "velocidade") as partial_table
