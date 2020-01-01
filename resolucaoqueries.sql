@@ -8,7 +8,7 @@ BEGIN
 SELECT t.designacao as Designação, t.dataHora as "Data e Hora" FROM TesteClinico t
 INNER JOIN Atleta_Prova ap ON ap.data > t.dataHora
 WHERE ap.id_Atleta = t.idAtleta AND id_Atleta = 1
-ORDER BY t.dataHora;
+ORDER BY t.dataHora DESC;
 END $$
 DELIMITER ;
 
@@ -33,7 +33,7 @@ DROP PROCEDURE IF EXISTS pacientes_testes
 DELIMITER $$
 CREATE PROCEDURE pacientes_testes (IN nome_atleta VARCHAR(100))
 BEGIN
-SELECT a.nome as Nome FROM Atleta a
+SELECT DISTINCT a.nome as Nome FROM Atleta a
 INNER JOIN TesteClinico t ON t.idAtleta = a.idAtleta
 WHERE t.designacao = "Analise_sanguinea";
 END $$
